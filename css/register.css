@@ -1,0 +1,25 @@
+.bgimg{
+	background-image: url('../image/12.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 660px;
+}
+
+.modal-body{
+	border: 2px solid #8fd905;
+	padding: 10px 10px;
+
+}
+.form{
+	
+	padding: 5px 5px;
+	padding-top: 20px;
+	margin:90px 40px 40px 30px;
+
+}
+#maincontent{
+	padding: 20px 20px;
+	margin: 30px;
+}
+
