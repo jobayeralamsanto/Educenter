@@ -1,0 +1,168 @@
+.bgimg{
+	background-image: url('../image/2.png');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 660px;
+}
+.headerset{
+	padding-top: 250px;
+	box-sizing: border-box;
+}
+
+.headerset h2{
+	font-size: 42px;
+}
+
+.headerset h1{
+	font-size: 82px;
+	
+}
+
+.nav-item{
+	padding-left: 15px;
+	padding-right: 15px;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:90%;
+	font-weight: bold;
+
+}
+.navbar-brand img{
+	height: 2rem;
+
+}
+.navbar-nav li a:hover{
+	border-bottom:4px solid #8fd905;
+}
+
+
+
+
+
+/*''''''''''''''About'''''''*/
+
+.about{
+	padding: 100px 0px 60px;
+	height: 600px;
+}
+
+.about h2{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.about p{
+    font-size: 20px
+}
+
+
+
+
+/*'''''''''''course'''''''''''*/
+
+.portfolio{
+	height: 1200px;
+	width: 100%;
+	padding: 100px 0px 50px;
+}
+.portfolio h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.card{
+	margin-top: 40px; 
+}
+
+/*''''''''''event'''''''*/
+.event{
+	height: 900px;
+	width: 100%;
+	padding: 100px 0px 50px;
+}
+
+.event h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+/*'''''''''''contract''''''''*/
+#contact{
+	height: 650px;
+	width: 100%;
+	padding: 100px 0px 50px
+}
+
+#contact h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#contact p{
+	font-size: 20px
+}
+
+/*'''''''''''ourteam''''''''*/
+
+.ourteam {
+	height: 700px;
+	padding: 100px 0px 60px;
+	width: 100%; 
+}
+
+.ourteam h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.teamsatting{
+	margin-top: 70px !important;
+}
+
+.footer{
+	height: 50px;
+}
+.footer h6{
+	line-height: 50px;
+}
+
+
+
+/*''''''''''media'''''''*/
+
+@media(min-width: 992px){
+
+}
+
+@media(min-width: 768px) and(max-width: 991px){
+
+}
+
+@media(min-width: 575px) and(max-width: 767px){
+	
+}
+
+@media(min-width: 480px) and(max-width: 574px){
+	
+}
+
+@media(max-width: 479px){
+	.headerset h2{
+	font-size: 22px;
+}
+
+.headerset h1{
+	font-size: 42px;
+	font-weight:bold; 
+}
+
+.ourservices{
+	height: 1200px;
+}
+
+.portfolio{
+	height: 2600px;
+}
+
+}
